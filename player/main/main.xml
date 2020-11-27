@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.2.20200620">
+<class>Page</class>
+<widget class="Page" name="main">
+<public>
+<property name="backgroundImg">beijing3.png</property>
+</public>
+<widgets>
+<widget name="btnprev" class="button" bindtap="onbtn">
+<public>
+<property name="rect">30, 397, 48, 48</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="norImg">prevb.png</property>
+<property name="downImg">prevf.png</property>
+</widget>
+<widget name="btnnext" class="button" bindtap="onbtn">
+<public>
+<property name="rect">238, 397, 48, 48</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="norImg">nextb.png</property>
+<property name="downImg">nextf.png</property>
+</widget>
+<widget name="label1" class="label">
+<public>
+<property name="rect">0, 302, 320, 30</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 16</property>
+</public>
+<property name="text">欢迎使用</property>
+</widget>
+<widget name="progressbar1" class="progressbar">
+<public>
+<property name="rect">30, 337, 260, 4</property>
+<property name="background">0, 210, 206, 202</property>
+</public>
+<property name="maxValue">100</property>
+<property name="minValue">0</property>
+<property name="currentValue">1</property>
+<property name="norImg">slider_nor.png</property>
+<property name="barImg">slider_bar.png</property>
+</widget>
+<widget name="Switch1" class="Switch" bindchange="onPlay">
+<public>
+<property name="rect">128, 381, 64, 64</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="offBgImg">bofang.png</property>
+<property name="onBgImg">zanting.png</property>
+</widget>
+<widget name="time" class="label">
+<public>
+<property name="rect">21, 348, 37, 20</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 16</property>
+</public>
+<property name="text">0:00</property>
+</widget>
+<widget name="total_time" class="label">
+<public>
+<property name="rect">260, 348, 37, 20</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 16</property>
+</public>
+<property name="text">5:20</property>
+</widget>
+<widget name="button1" class="button" bindtap="onList">
+<public>
+<property name="rect">1, 1, 318, 293</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+</widget>
+<widget name="imagebox1" class="imagebox">
+<public>
+<property name="rect">95, 92, 130, 130</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="img">2.png</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>

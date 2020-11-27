@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <GlobalSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectName="player" DefaultWinWidth="320" DefaultWinHeight="480" DefaultColorFormat="RGB888" DefaultFont="FONT16" DefaultImageFormat=".png" EditorFontSize="14" ProjectParentName="player" Language="Chinese">
+  </GlobalSetting>
+  <Solution>
+    <player SubType="Project">
+      <UI文件 SubType="UIFile">
+        <list SubType="PageDirectory">
+          <list.js SubType="PageJs" />
+          <list.ui SubType="PageUi" />
+        </list>
+        <main SubType="PageDirectory">
+          <main.js SubType="PageJs" />
+          <main.ui SubType="PageUi" />
+        </main>
+      </UI文件>
+      <app.js SubType="AppJs" />
+    </player>
+  </Solution>
+</Project>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rtgui version="1.4.20200918">
+<class>Page</class>
+<widget class="Page" name="list">
+<public>
+<property name="backgroundImg">beijing3.png</property>
+</public>
+<widgets>
+<widget name="btn_back" class="button" bindtap="btn_back">
+<public>
+<property name="rect">242, 401, 49, 41</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 16</property>
+</public>
+<property name="norImg">back1.png</property>
+<property name="downImg">back2.png</property>
+</widget>
+<widget name="slider1" class="slider" bindchange="volume">
+<public>
+<property name="rect">3, 359, 314, 30</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="minValue">0</property>
+<property name="maxValue">99</property>
+<property name="currentValue">70</property>
+<property name="norImg">slider_nor.png</property>
+<property name="barImg">slider_bar.png</property>
+<property name="sliderImg">dot1.png</property>
+</widget>
+<widget name="label1" class="label">
+<public>
+<property name="rect">35, 337, 37, 22</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 16</property>
+</public>
+<property name="text">音量</property>
+</widget>
+<widget name="label2" class="label">
+<public>
+<property name="rect">92, 336, 21, 22</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">-</property>
+</widget>
+<widget name="label3" class="label">
+<public>
+<property name="rect">257, 337, 21, 22</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="text">+</property>
+</widget>
+<widget name="mode" class="Switch" bindchange="btn_mode">
+<public>
+<property name="rect">137, 405, 50, 33</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="offBgImg">shunxu.png</property>
+<property name="onBgImg">danqu.png</property>
+</widget>
+<widget name="source" class="Switch" bindchange="onBntsour">
+<public>
+<property name="rect">29, 401, 50, 33</property>
+<property name="background">0, 212, 208, 200</property>
+</public>
+<property name="offBgImg">wangluo.png</property>
+<property name="onBgImg">wenjian.png</property>
+</widget>
+<widget name="label4" class="label">
+<public>
+<property name="rect">19, 446, 71, 22</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 12</property>
+</public>
+<property name="text">数据源</property>
+</widget>
+<widget name="label5" class="label">
+<public>
+<property name="rect">127, 446, 71, 22</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 12</property>
+</public>
+<property name="text">播放模式</property>
+</widget>
+<widget name="label6" class="label">
+<public>
+<property name="rect">235, 446, 71, 22</property>
+<property name="align">HORIZONTAL | VERTICAL</property>
+<property name="background">0, 212, 208, 200</property>
+<property name="font">HYQiHei-55J.ttf, 12</property>
+</public>
+<property name="text">返回</property>
+</widget>
+</widgets>
+</widget>
+</rtgui>
